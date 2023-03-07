@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 자식노드 >. div>ul>li 후 엔터 -->
+    <div>
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+
+    <!-- 형제노드 +. div>ul+ol+div 후 엔터 -->
+    <div>
+      <ul></ul>
+      <ol></ol>
+      <div></div>
+    </div>
+
+    <!-- 반복하기 *, div>ul>li*3 후 엔터, 숫자는 반복 수-->
+    <div>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+
+    <!-- 아이디 #, span#item 후 엔터-->
+    <span id="item"></span>
+
+    <!-- 클래스 ., span.title 후 엔터 -->
+    <span class="title"></span>
+
+    <!-- 컨텐츠 {}, {p.container{HELLO WORLD}} 후 엔터-->
+    <p class="container">HELLO WORLD</p>
+
+    <!-- 자동 넘버링 $, p.container{item$}*3 후 엔터, 숫자는 반복 수 -->
+    <p class="container">item1</p>
+    <p class="container">item2</p>
+    <p class="container">item3</p>
+  </body>
+</html>
